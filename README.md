@@ -2,25 +2,4 @@ That app contains:
   Edge Crop
   Crop Detected Positives
 
-For ex:
-input_folder
-        -class1
-            -image1.jpeg
-        -class2
-            -image1.jpeg
-
-  results:
-    -cropped_edges
-        -class1
-            -image1.jpeg
-    -output_folder
-        -cropped
-            -class1
-                -image1.jpeg
-            -class2
-                -image1.jpeg
-        -detected
-            -class1
-                -image1.jpeg
-            -class2
-                -image1.jpeg
+It seperates result folders same as input folder. For example input/class1/image.jpeg --> output/cropped/class1/image.jpeg
